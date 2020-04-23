@@ -10,7 +10,7 @@ public class WelcomeController {
 	@RequestMapping(method = RequestMethod.GET, produces = {"application/json"})
 	public @ResponseBody String helloWorld() {
 		
-		String str = "This is my first project";	
+		//String str = "This is my first project";	
 		return "Hello World!!!"; //"application/json" mean this is a text not a redirect
 	}
 }
