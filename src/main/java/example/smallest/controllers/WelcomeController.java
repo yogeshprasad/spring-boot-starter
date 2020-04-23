@@ -12,6 +12,6 @@ public class WelcomeController {
 		
 		String str = "This is my first project";
 		String str2 = "This is my first project";
-		return "Hello World!!!"; //"application/json" mean this is a text not a redirect
+		return "Hello World!!!"; //"application/json" mean this is a text not a redirect 
 	}
 }
